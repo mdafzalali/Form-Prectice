@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hoping Mind Registration Form</h2>
+        <fieldset class="border">
+            <legend class="details">Personal Details</legend>
+            <div class="form-container">
+                <form action="">
+                    <div class="input-name">
+                        <i class="fa fa-user lock"></i>
+                        <input type="text" placeholder="First Name" class="name">
+
+                        <span>
+                        <i class="fa fa-user lock"></i>
+                        <input type="text" placeholder="Last Name" class="name">
+                    </span>
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-envelope email"></i>
+                        <input type="email" placeholder="Enter Email" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-phone lock"></i>
+                        <input type="value" placeholder="Phone Number" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-phone lock"></i>
+
+                        <input type="value" placeholder="Address" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <input type="radio" class="radio-button" name="r1">
+                        <label for="" style="margin-right: 20px">Male</label>
+
+                        <input type="radio" class="radio-button" name="r1">
+                        <label for="">Female</label>
+                    </div>
+                    <div class="input-name">
+
+                        <label for="">Upload Photo</label><br>
+                        <i class="fa fa-photo lock"></i>
+                        <input type="file" id="myFile" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <label for="">Upload Resume</label><br>
+                        <i class="fa fa-file lock"></i>
+                        <input type="file" id="myFile" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+
+                        <select name="" id="" class="country">
+                            <option value="">Select a country</option>
+                            <option value="">India</option>
+                            <option value="">Canada</option>
+                            <option value="">Dubai</option>
+                            <option value="">America</option>
+                    </select>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="input-name">
+                        <input type="text" list="Trainning" placeholder="Select your Tanning, Which You want" class="country">
+                        <datalist id="Trainning">
+                            <option value="Full Stack Development"></option>
+                            <option value="Data Science"></option>
+                            <option value="Java Developer"></option>
+                            <option value="Frontend Developer"></option>
+                            <option value="Backend Developer"></option>
+                            <option value="Python Developer"></option>
+                            
+                        </datalist>
+                    </div>
+        </fieldset>
+
+        <div class="input-name">
+            <input type="checkbox" id="cb" class="check-button">
+            <label for="cb" class="check">I accept the term & condition </label>
+        </div>
+
+        <div class="input-name">
+            <input type="submit" class="button" value="Register">
+        </div>
+
+
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
